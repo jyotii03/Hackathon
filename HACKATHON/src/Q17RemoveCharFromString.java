@@ -7,7 +7,7 @@ public class Q17RemoveCharFromString {
 		Scanner sc=new Scanner(System.in);
         System.out.println("Enter your string ");
         String str=sc.nextLine();
-        System.out.println("enter char to remove ");
+        System.out.println("enter Char to remove ");
         char c=sc.nextLine().charAt(0);
         String newStr=str.replace(c, ' ');
         System.out.println(newStr);
