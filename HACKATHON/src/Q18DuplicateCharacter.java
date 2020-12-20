@@ -7,7 +7,7 @@ public class Q18DuplicateCharacter {
 	public static void main(String[] args) {
 		Scanner sc =new Scanner(System.in);
 		
-		System.out.println("Enter your String ");
+		System.out.println("Enter your string ");
 		String str=sc.nextLine();
 		
 		char[] arr=str.toCharArray();
